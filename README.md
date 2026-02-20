@@ -5,7 +5,7 @@
 ![Maintained](https://img.shields.io/badge/Maintained-Yes-green?style=flat-square)
 
 </div>
-
+ 
 <div align="center">
   <h3>
     <a href="#english">🇺🇸 English</a> | <a href="#português">🇧🇷 Português</a>
