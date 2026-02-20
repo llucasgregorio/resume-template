@@ -1,16 +1,9 @@
 % GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
 % Copyright © 2025 Celio B Junior. All rights reserved.
-% 
+%
 % Licensed under the Apache License, Version 2.0 (the "License");
-% you may not use this file except in compliance with the License.
-% You may obtain a copy of the License at
-%
-%     http://www.apache.org/licenses/LICENSE-2.0
-%
 % This template follows best practices from README.md
 
-% Start of LaTeX document: defines document type and format
-% a4paper = A4 page size, 10pt = base font size
 \documentclass[a4paper,10pt]{article}
 
 % --- PACKAGES ---
@@ -21,20 +14,14 @@
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{titlesec}
-% For better line breaks in long URLs (don't use \href{}, use \url{} for long URLs)
-% \usepackage{xurl}
 
-% --- DOCUMENT SETUP ---
-% Set page margins to maximize content space
+% --- DOCUMENT CONFIGURATION ---
 \geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
-
-% Remove page numbers and headers for clean resume look
 \pagestyle{empty}
 
-% PDF metadata - customize with your information
 \hypersetup{
-    pdftitle={CV Your Name},
-    pdfauthor={Your Name},
+    pdftitle={CV Lucas Gregorio Martins},
+    pdfauthor={Lucas Gregorio Martins},
     colorlinks=true,
     linkcolor=black,
     urlcolor=black,
@@ -42,10 +29,8 @@
     bookmarksdepth=1 
 }
 
-% Disable section numbering for cleaner appearance
 \setcounter{secnumdepth}{0}
 
-% Format section headers with bold text and underline
 \titleformat{\section}
 {\Large\bfseries}
 {}
@@ -53,105 +38,87 @@
 {}
 [\titlerule\vspace{0.5ex}]
 
-% --- BEGIN DOCUMENT ---
 \begin{document}
 
 % --- HEADER ---
-% Replace with your personal information
 \begin{center}
-    {\LARGE \textbf{Your Full Name}} 
+    {\LARGE \textbf{Lucas Gregorio Martins}} 
     \\ [0.1cm]
-    Your City, Your Country 
+    +55 11 941935431
     {\textbullet}
-    Email: \href{mailto:your.email@example.com}{your.email@example.com} 
+    Email: \href{mailto:luucasgregorio@gmail.com}{luucasgregorio@gmail.com} 
     {\textbullet}
-    \href{https://www.linkedin.com/in/yourprofile}{linkedin.com/in/yourprofile} 
+    \href{https://www.linkedin.com/in/lucas--gregorio/}{linkedin.com/in/lucas--gregorio} 
     {\textbullet}
-    \href{https://github.com/yourusername}{github.com/yourusername}
+    \href{https://github.com/llucasgregorio}{github.com/llucasgregorio}
 \end{center}
 
-% --- SECTIONS ---
+% --- SUMMARY ---
+\section{Summary}
 
-\section{Leadership Activities} 
-    % Include volunteer work, clubs, organizations, or leadership roles
-    \subsection*{\texorpdfstring{
-            \textbf{Organization Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Organization Name (Leadership) -- Location
-        }}
-    \textit{Your Role/Position \hfill Start Date - End Date (e.g. Jan 2024 - Present)}
-        \begin{itemize}
-            % Use action verbs from the README - quantify your impact when possible
-            \item Describe a significant leadership accomplishment with specific metrics.
-            \item Highlight how you managed teams, led initiatives, or drove results.
-            \item Show impact on the organization or community you served.
-        \end{itemize}
+DevOps/SRE Engineer specialized in high-availability environments and cloud infrastructure modernization. Expertise in Azure, AWS, Kubernetes, Observability, CI/CD, Terraform, and Ansible. Proven track record of refactoring architectures to improve performance, scalability, and cost optimization.
 
-% ------
-
+% --- EXPERIENCE ---
 \section{Experience}
-    % List work experience in reverse chronological order (most recent first)
-    \subsection*{\texorpdfstring{
-            \textbf{Company/Organization Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Company Name -- Location
-        }}
-    \textit{Job Title (e.g. Software Engineer, Data Analyst) \hfill Start Date - End Date}
-        \begin{itemize} 
-            % Focus on achievements, not just duties - use STAR method (Situation, Task, Action, Result)
-            \item Accomplished [specific result] by [action taken], leading to [quantified impact].
-            \item Developed/Built/Created [what you made] using [technologies/methods], resulting in [benefit].
-            \item Collaborated with [team size/type] to [achieve what], improving [metric] by [percentage/amount].
-        \end{itemize}
 
-    \subsection*{\texorpdfstring{
-        	\textbf{Company/Organization Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Another Company/Organization -- Location
-        }}
-    \textit{Job Title (e.g. Junior Developer, Research Assistant) \hfill Start Date -- End Date}
-        \begin{itemize}
-            \item Use active verbs from the action verbs table in README.md
-            \item Quantify your achievements whenever possible (numbers, percentages, timeframes)
-            \item Show progression and increasing responsibility across roles
-        \end{itemize}
-        
-    \subsection*{\texorpdfstring{
-        	\textbf{University/Research Institution} \hfill Location (e.g. Remote or State, Country)
-        }{
-            University/Research Institution -- Location
-        }}
-    \textit{Research/Academic Position (e.g. Undergraduate Researcher, Teaching Assistant) \hfill Start Date - End Date}
-        \begin{itemize}
-            \item Include research, academic work, or projects that demonstrate technical skills
-            \item Highlight any publications, presentations, or significant findings
-        \end{itemize}
+\subsection*{\textbf{TOTVS S.A} \hfill Hybrid – São Paulo}
+\textit{Mid-Level DevOps Engineer \hfill 04/2022 – Present}
+\begin{itemize}
+    \item Achieved Azure cloud cost reduction through infrastructure optimizations, resulting in over 20\% annual savings.
+    
+    \item Implemented CI/CD pipelines integrating SAST and DAST security analysis with Checkmarx, reducing critical vulnerabilities by more than 60\%.
+    
+    \item Designed and contributed to a project accelerating product deployment for new clients by standardizing pipelines and delivery workflows, reducing go-live time.
+    
+    \item Structured front-end automated testing pipelines using Cypress integrated into CI/CD, increasing delivery reliability and optimizing product team workflow.
+    
+    \item Optimized reverse proxy architecture by implementing WAF and hardened NGINX configurations, enabling the re-commercialization of a legacy product.
+\end{itemize}
 
-% ------
+\subsection*{\textbf{TQI} \hfill Hybrid – São Paulo}
+\textit{Infrastructure Analyst \hfill 04/2020 – 04/2022}
+\begin{itemize}
+    \item Implemented Infrastructure as Code using Terraform for automated provisioning in VMware environments, improving standardization, reducing manual errors, and increasing delivery speed.
+    
+    \item Performed incident analysis and troubleshooting in Linux environments, implementing permanent solutions to improve stability, performance, and service availability.
+    
+    \item Administered Microsoft 365 environments with focus on governance, security, and Exchange Online support, ensuring operational continuity and communication compliance.
+    
+    \item Structured proactive infrastructure monitoring using Zabbix, implementing intelligent alerts and critical metrics to reduce downtime and improve MTTR.
+    
+    \item Implemented automated backup policies using Iperius Backup, ensuring disaster recovery strategy and protection of critical data.
+\end{itemize}
 
+\subsection*{\textbf{LINX} \hfill On-site – São Paulo}
+\textit{Support Analyst \hfill 02/2020 – 04/2020}
+\begin{itemize}
+    \item Executed PL/SQL queries for root cause analysis and incident resolution support.
+    
+    \item Provided support and maintenance for Point-of-Sale (POS) systems, ensuring high availability of retail operations and fast incident resolution.
+\end{itemize}
+
+% --- SKILLS ---
 \section{Skills}
-    % Keep this section concise and relevant to your target jobs
-    \begin{itemize}
-        \item \textbf{Technical:} List your programming languages, frameworks, tools, and methodologies
-        \item \textbf{Language:} Your Native Language (Native), Second Language (Proficiency Level), Third Language (Proficiency Level)
-    \end{itemize}
 
-% ------
+\begin{itemize}
+    \item \textbf{Cloud Platforms:} Azure, AWS, Google Cloud Platform (GCP).
+    
+    \item \textbf{DevOps \& Infrastructure:} Kubernetes, Helm, Docker, Terraform, Ansible, Bash, PowerShell, Python, Jenkins, Azure DevOps, SQL Server, Oracle.
+    
+    \item \textbf{Monitoring \& Operating Systems:} Grafana, Prometheus, Zabbix, Linux, Windows Server, VMware.
+    
+    \item \textbf{Soft Skills:} Mentoring, technical problem-solving, clear communication with clients and management.
+    
+    \item \textbf{Languages:} Portuguese (Native), English (Upper-Intermediate).
+\end{itemize}
 
-% !!!!!!!!!!!!!!!!!!!!!!
-% Place this section directly below the header and above the 
-% Experience section if you’re applying for your first job 
-% or an internship; otherwise, leave it at the end of your 
-% resume.
-% !!!!!!!!!!!!!!!!!!!!!!
-
+% --- EDUCATION ---
 \section{Education}
-    % Use this format for each degree - most recent first
-    \subsection*{\texorpdfstring{
-            \textbf{Your University Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Your University Name (Education) -- Location
-        }}
-    \textit{Your Degree Title (e.g. B.Sc. Computer Science) \hfill Start Date - End Date (e.g. Jan 2024 - Dec 2024)}
+
+\subsection*{\textbf{FAM University Center} \hfill Online Degree}
+\textit{Bachelor’s Degree in Systems Analysis and Development \hfill Expected Graduation: 12/2026}
+
+\subsection*{\textbf{SENAI – Informatics School} \hfill On-site}
+\textit{Technical Degree in Full-Stack Development \hfill 06/2019 – 12/2019}
 
 \end{document}
