@@ -1,176 +1,176 @@
-% GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
-% Copyright © 2025 Celio B Junior. All rights reserved.
-% 
-% Licensed under the Apache License, Version 2.0 (the "License");
-% you may not use this file except in compliance with the License.
-% You may obtain a copy of the License at
-%
-%     http://www.apache.org/licenses/LICENSE-2.0
-%
-% This template follows best practices from README.md
+    % GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
+    % Copyright © 2025 Celio B Junior. All rights reserved.
+    % 
+    % Licensed under the Apache License, Version 2.0 (the "License");
+    % you may not use this file except in compliance with the License.
+    % You may obtain a copy of the License at
+    %
+    %     http://www.apache.org/licenses/LICENSE-2.0
+    %
+    % This template follows best practices from README.md
 
-% Início do documento LaTeX: define tipo e formato do documento
-% a4paper = tamanho A4, 10pt = tamanho base da fonte
-\documentclass[a4paper,10pt]{article}
+    % Início do documento LaTeX: define tipo e formato do documento
+    % a4paper = tamanho A4, 10pt = tamanho base da fonte
+    \documentclass[a4paper,10pt]{article}
 
-% --- PACOTES ---
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[portuguese]{babel}
-\usepackage{geometry}
-\usepackage{parskip}
-\usepackage{hyperref}
-\usepackage{titlesec}
-\usepackage[sfdefault]{carlito}
-\usepackage[utf8]{inputenc}
-% Para quebras de linha em URLs longas (não use \href{}, use \url{} para URLs longas)
-% \usepackage{xurl}
+    % --- PACOTES ---
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[portuguese]{babel}
+    \usepackage{geometry}
+    \usepackage{parskip}
+    \usepackage{hyperref}
+    \usepackage{titlesec}
+    \usepackage[sfdefault]{carlito}
+    \usepackage[utf8]{inputenc}
+    % Para quebras de linha em URLs longas (não use \href{}, use \url{} para URLs longas)
+    % \usepackage{xurl}
 
-% --- CONFIGURAÇÃO DO DOCUMENTO ---
-% Define margens da página para maximizar espaço de conteúdo
-\geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+    % --- CONFIGURAÇÃO DO DOCUMENTO ---
+    % Define margens da página para maximizar espaço de conteúdo
+    \geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
 
-% Remove números de página e cabeçalhos para visual limpo do currículo
-\pagestyle{empty}
+    % Remove números de página e cabeçalhos para visual limpo do currículo
+    \pagestyle{empty}
 
-% Metadados do PDF - personalize com suas informações
-\hypersetup{
-    pdftitle={CV Seu Nome},
-    pdfauthor={Seu Nome},
-    colorlinks=true,
-    linkcolor=black,
-    urlcolor=black,
-    citecolor=black,
-    bookmarksdepth=1 
-}
+    % Metadados do PDF - personalize com suas informações
+    \hypersetup{
+        pdftitle={CV Seu Nome},
+        pdfauthor={Seu Nome},
+        colorlinks=true,
+        linkcolor=black,
+        urlcolor=black,
+        citecolor=black,
+        bookmarksdepth=1 
+    }
 
-% Desabilita numeração das sections
-\setcounter{secnumdepth}{0}
+    % Desabilita numeração das sections
+    \setcounter{secnumdepth}{0}
 
-% Formata os cabeçalhos de cada section e coloca uma linha em baixo
-\titleformat{\section}
-{\Large\bfseries}
-{}
-{0em}
-{}
-[\titlerule\vspace{0.5ex}]
+    % Formata os cabeçalhos de cada section e coloca uma linha em baixo
+    \titleformat{\section}
+    {\Large\bfseries}
+    {}
+    {0em}
+    {}
+    [\titlerule\vspace{0.5ex}]
 
-% --- INÍCIO DO DOCUMENTO ---
-\begin{document}
+    % --- INÍCIO DO DOCUMENTO ---
+    \begin{document}
 
-% --- CABEÇALHO ---
-% Substitua com suas informações pessoais
-\begin{center}
-    {\LARGE \textbf{Lucas Gregorio Martins}} 
-    \\ [0.1cm]
-    +55 11 941935431
-    {\textbullet}
-    Email: \href{luucasgregorio@gmail.com}{luucasgregorio@gmail.com} 
-    {\textbullet}
-    \href{https://www.linkedin.com/in/lucas--gregorio/}{linkedin.com/in/lucas--gregorio} 
-    {\textbullet}
-    \href{https://github.com/llucasgregorio}{github.com/llucasgregorio}
-\end{center}
+    % --- CABEÇALHO ---
+    % Substitua com suas informações pessoais
+    \begin{center}
+        {\LARGE \textbf{Lucas Gregorio Martins}} 
+        \\ [0.1cm]
+        +55 11 941935431
+        {\textbullet}
+        Email: \href{mailto:luucasgregorio@gmail.com}{luucasgregorio@gmail.com} 
+        {\textbullet}
+        \href{https://www.linkedin.com/in/lucas--gregorio/}{linkedin.com/in/lucas--gregorio} 
+        {\textbullet}
+        \href{https://github.com/llucasgregorio}{github.com/llucasgregorio}
+    \end{center}
 
-% --- SEÇÕES ---
+    % --- SEÇÕES ---
 
-\section{Resumo} 
+    \section{Resumo} 
 
-    Engenheiro DevOps/SRE especializado em ambientes de alta disponibilidade e modernização de infraestrutura em nuvem. Expertise nos ecossistemas Azure, AWS, Kubernetes, Observabilidade, CI/CD, Terraform, Ansible. Histórico comprovado de refatoração de arquiteturas para ganhos de performance, escalabilidade e otimização de custos.
+        Engenheiro DevOps/SRE com 4 anos de experiência, especializado em ambientes de alta disponibilidade e modernização de infraestrutura em nuvem. Expertise nos ecossistemas Azure, AWS, Kubernetes, Observabilidade, CI/CD, Terraform, Ansible. Histórico comprovado de refatoração de arquiteturas para ganhos de performance, escalabilidade e otimização de custos.
 
 
-\section{Experiência}
-    % Liste as suas experiência de trabalho ou acadêmicas, mais recente primeiro
-    \subsection*{\texorpdfstring{
-            \textbf{TOTVS S.A} \hfill Híbrido São Paulo
-        }{
-            Nome da Empresa -- Localização
-        }}
-    \textit{Engenheiro DevOps Pleno \hfill 04/2022 - Emprego Atual}
-        \begin{itemize} 
-            % Foque em conquistas, não apenas na parte técnica - use o método STAR (Situação, Tarefa, Ação, Resultado)
-            \item Alcancei redução de custos em nuvem Azure através de otimizações de infraestrutura resultando em mais de 20\% anual de saving.
-            
-            \item Implementei pipelines de CI/CD com integração de análises de segurança SAST e DAST utilizando a ferramenta Checkmarx reduzindo em mais de 60\% as vulnerabilidades críticas nos produtos.
-            
-            \item Contribuí e idealizei um projeto para acelerar a implantação do produto em novos clientes por meio da padronização de pipelines e da definição de novos fluxos de entrega, resultando na redução do tempo de go-live.
-            
-            \item Estruturei pipeline de testes automatizados de front-end com a ferramenta Cypress integrando-o ao processo de CI/CD, aumentando a confiabilidade das entregas e otimizando fluxo de trabalho do time de produto.
-            
-            \item Otimizei a arquitetura de proxy reverso, com a implementação de WAF e configurações robustas no NGINX, viabilizando a retomada da comercialização de um produto legado do segmento.
-    
-        \end{itemize}
+    \section{Experiência}
+        % Liste as suas experiência de trabalho ou acadêmicas, mais recente primeiro
+        \subsection*{\texorpdfstring{
+                \textbf{TOTVS S.A} \hfill Híbrido São Paulo
+            }{
+                Nome da Empresa -- Localização
+            }}
+        \textit{Engenheiro DevOps Pleno \hfill 04/2022 - Emprego Atual}
+            \begin{itemize} 
+                % Foque em conquistas, não apenas na parte técnica - use o método STAR (Situação, Tarefa, Ação, Resultado)
+                \item Alcancei redução de custos em nuvem Azure através de otimizações de infraestrutura resultando em mais de 20\% anual de saving.
+                
+                \item Implementei pipelines de CI/CD com integração de análises de segurança SAST e DAST utilizando a ferramenta Checkmarx reduzindo em mais de 60\% as vulnerabilidades críticas nos produtos.
+                
+                \item Contribuí e idealizei um projeto para acelerar a implantação do produto em novos clientes por meio da padronização de pipelines e da definição de novos fluxos de entrega, resultando na redução do tempo de go-live.
+                
+                \item Estruturei pipeline de testes automatizados de front-end com a ferramenta Cypress integrando-o ao processo de CI/CD, aumentando a confiabilidade das entregas e otimizando fluxo de trabalho do time de produto.
+                
+                \item Otimizei a arquitetura de proxy reverso, com a implementação de WAF e configurações robustas no NGINX, viabilizando a retomada da comercialização de um produto legado do segmento.
+        
+            \end{itemize}
 
-    \subsection*{\texorpdfstring{
-        	\textbf{TQI} \hfill Híbrido São Paulo
-        }{
-            Nome da Empresa -- Localização
-        }}
-    \textit{Analista de infraestrutura \hfill 04/2020 - 04/2022}
+        \subsection*{\texorpdfstring{
+                \textbf{TQI} \hfill Híbrido São Paulo
+            }{
+                Nome da Empresa -- Localização
+            }}
+        \textit{Analista de infraestrutura \hfill 04/2020 - 04/2022}
+            \begin{itemize}
+                \item Implementei infraestrutura como código com Terraform para provisionamento automatizado em ambientes VMware, promovendo padronização, redução de erros manuais e agilidade nas entregas de servidores.
+                
+                \item Realizei análise e troubleshooting de incidentes em ambientes Linux, implementando soluções definitivas para melhoria de estabilidade, performance e disponibilidade dos serviços.
+                
+                \item Administrei ambientes do Microsoft 365, com foco em governança, segurança e suporte ao Exchange Online, garantindo continuidade operacional e conformidade das comunicações corporativas.
+                
+                \item Estruturei monitoramento proativo da infraestrutura com Zabbix, implementando alertas inteligentes e métricas críticas para redução de downtime e melhoria do MTTR.
+                
+                \item Implementei políticas e rotinas automatizadas de backup com Iperius Backup, garantindo estratégia de recuperação de desastres (DR) e proteção eficiente dos dados críticos.
+                
+            \end{itemize}
+
+        \subsection*{\texorpdfstring{
+                \textbf{LINX} \hfill Presencial São Paulo
+            }{
+                Nome da Empresa -- Localização
+            }}
+        \textit{Analista de suporte \hfill 02/2020 - 04/2020}
+            \begin{itemize}
+                \item Executei queries em banco de dados utilizando PL/SQL para análise de causa raiz e suporte à resolução de incidentes.
+                
+                \item Prestei suporte e sustentação a sistemas de ponto de venda (POS), assegurando alta disponibilidade das operações comerciais e rápida resolução de incidentes em ambientes de varejo.
+                
+                
+            \end{itemize}
+
+
+    \section{Habilidades}
+        % Mantenha esta seção concisa e use o máximo de palavras chaves
+        % que fazem sentido para a vaga que você deseja.
         \begin{itemize}
-            \item Implementei infraestrutura como código com Terraform para provisionamento automatizado em ambientes VMware, promovendo padronização, redução de erros manuais e agilidade nas entregas de servidores.
+            \item \textbf{Plataformas Cloud:} Azure, AWS, Google Cloud Platform (GCP).
             
-            \item Realizei análise e troubleshooting de incidentes em ambientes Linux, implementando soluções definitivas para melhoria de estabilidade, performance e disponibilidade dos serviços.
+            \item \textbf{DevOps \& Infraestrutura:} Kubernetes, Helm, Docker, Terraform, Ansible, Bash, Powershell, Python, Jenkins, Azure DevOps, SQL Server, Oracle
             
-            \item Administrei ambientes do Microsoft 365, com foco em governança, segurança e suporte ao Exchange Online, garantindo continuidade operacional e conformidade das comunicações corporativas.
+            \item \textbf{Monitoramento \& Sistemas Operacionais:} Grafana, Prometheus, Zabbix, Linux, Windows Server, VMware.
             
-            \item Estruturei monitoramento proativo da infraestrutura com Zabbix, implementando alertas inteligentes e métricas críticas para redução de downtime e melhoria do MTTR.
-            
-            \item Implementei políticas e rotinas automatizadas de backup com Iperius Backup, garantindo estratégia de recuperação de desastres (DR) e proteção eficiente dos dados críticos.
-            
+            \item \textbf{Soft Skills:} Mentoria, resolução de problemas técnicos, comunicação clara com clientes e gerência .
+            \item \textbf{Idiomas:} Português (Nativo), Inglês (B2 - Intermediário Superior)
         \end{itemize}
 
-    \subsection*{\texorpdfstring{
-        	\textbf{LINX} \hfill Presencial São Paulo
-        }{
-            Nome da Empresa -- Localização
-        }}
-    \textit{Analista de suporte \hfill 02/2020 - 04/2020}
-        \begin{itemize}
-            \item Executei queries em banco de dados utilizando PL/SQL para análise de causa raiz e suporte à resolução de incidentes.
-            
-            \item Prestei suporte e sustentação a sistemas de ponto de venda (POS), assegurando alta disponibilidade das operações comerciais e rápida resolução de incidentes em ambientes de varejo.
-            
-            
-        \end{itemize}
+    % ------
 
+    % !!!!!!!!!!!!!!!!!!!!!!
+    % Mude esta section para o começo, depois do header e antes
+    % das suas experiências se você está procurando sua primeira
+    % vaga ou algum estágio. Do contrário, deixe como está.
+    % !!!!!!!!!!!!!!!!!!!!!!
 
-\section{Habilidades}
-    % Mantenha esta seção concisa e use o máximo de palavras chaves
-    % que fazem sentido para a vaga que você deseja.
-    \begin{itemize}
-        \item \textbf{Plataformas Cloud:} Azure, AWS, Google Cloud Platform (GCP).
+    \section{Educação}
+        % Formação mais recente primeiro
+        \subsection*{\texorpdfstring{
+                \textbf Centro Universitário FAM \hfill Graduação EAD
+            }{
+                Nome da Sua Universidade (Educação) -- Localização
+            }}
+        \textit{Análise e Desenvolvimento de sistemas \hfill Data de Término 12/2026}
         
-        \item \textbf{DevOps \& Infraestrutura:} Kubernetes, Helm, Docker, Terraform, Ansible, Bash, Powershell, Python, Jenkins, Azure DevOps, SQL Server, Oracle
-        
-        \item \textbf{Monitoramento \& Sistemas Operacionais:} Grafana, Prometheus, Zabbix, Linux, Windows Server, VMware.
-        
-        \item \textbf{Soft Skills:} Mentoria, resolução de problemas técnicos, comunicação clara com clientes e gerencia .
-        \item \textbf{Idiomas:} Português (Nativo), Inglês (Intermediário Superior)
-    \end{itemize}
+        \subsection*{\texorpdfstring{
+                \textbf Senai de informática \hfill Presencial
+            }{
+                Nome da Sua Universidade (Educação) -- Localização
+            }}
+        \textit{Técnico em Desenvolvimento Fullstack \hfill 06/2019 - 12/2019}
 
-% ------
-
-% !!!!!!!!!!!!!!!!!!!!!!
-% Mude esta section para o começo, depois do header e antes
-% das suas experiências se você está procurando sua primeira
-% vaga ou algum estágio. Do contrário, deixe como está.
-% !!!!!!!!!!!!!!!!!!!!!!
-
-\section{Educação}
-    % Formação mais recente primeiro
-    \subsection*{\texorpdfstring{
-            \textbf Centro Universitário FAM \hfill Graduação EAD
-        }{
-            Nome da Sua Universidade (Educação) -- Localização
-        }}
-    \textit{Análise e Desenvolvimento de sistemas \hfill Data de Término 12/2026}
-    
-    \subsection*{\texorpdfstring{
-            \textbf Senai de informática \hfill Presencial
-        }{
-            Nome da Sua Universidade (Educação) -- Localização
-        }}
-    \textit{Técnico em Desenvolvimento Fullstack \hfill 06/2019 - 12/2019}
-
-\end{document}
+    \end{document}
